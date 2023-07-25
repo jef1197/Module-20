@@ -5,13 +5,15 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState([]); 
+  const [page] = useState(['About Me', 'Portfolio', 'Contact', 'Resume'])
+
+  const [currentPage, setCurrentPage] = useState(page[0]); 
 
   return (
     <div >
       <Header/>
       <main>
-        <Content />
+        <Content renderPage={currentPage} />
       </main>
       <Footer />
     </div>
