@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
-import Project from './project';
+import Project from './Project';
 
 function Portfolio() {
   
   const [projects] = useState([
     {
       name: 'first',
-      link: '',
-      repo:'',
-      pic: ''
+      link: '1',
+      repo:'1',
+      pic: '1'
     },
     {
       name: 'second',
-      link: '',
-      repo:'',
-      pic: ''
+      link: '2',
+      repo:'2',
+      pic: '2'
     },
     {
       name: 'Third',
-      link: '',
-      repo:'',
-      pic: ''
+      link: '3',
+      repo:'3',
+      pic: '3'
     },
     {
       name: 'Fourth',
-      link: '',
-      repo:'',
-      pic: ''
+      link: '4',
+      repo:'4',
+      pic: '4'
     }
   ])
   
