@@ -1,12 +1,12 @@
 import React from 'react';
-import Nav from './Nav'
 
-function Header() {
+function Header(props) {
   
   
   return (
     <header>
-      <Nav/>
+      <h1>Header</h1>
+      {props.children}
     </header>
     );
   }
