@@ -45,6 +45,20 @@ li a {
   text-decoration: none;
 }
 
+/* Main Content Stlye */
+
+.content-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  height: 50vh;
+}
+
+.content-container h1 {
+  margin-bottom: 30px;
+}
+
 
 
 /* Styles for mobile */

@@ -19,7 +19,8 @@ function Content(props) {
   }
   
   return (
-    <section>
+    <section className='content-container'>
+      <h1>{props.renderPage}</h1>
       {renderPage()}
     </section>
     );
