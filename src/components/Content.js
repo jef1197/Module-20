@@ -1,6 +1,6 @@
 import React from 'react';
+import Home from './Home';
 import About from './About';
-import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 
@@ -11,8 +11,8 @@ function Content(props) {
       return <About />
     } else if (props.renderPage === 'Portfolio') {
       return <Portfolio />
-    } else if (props.renderPage === 'Contact') {
-      return <Contact />
+    } else if (props.renderPage === 'Home') {
+      return <Home />
     } else if (props.renderPage === 'Resume') {
       return <Resume />
     }
@@ -20,7 +20,9 @@ function Content(props) {
   
   return (
     <section className='content-container'>
-      <h1>{props.renderPage}</h1>
+      {props.renderPage !== 'Home' && 
+        <h1>{props.renderPage}</h1>
+      }
       {renderPage()}
     </section>
     );

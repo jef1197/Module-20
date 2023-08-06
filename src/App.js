@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
 
-  const [page] = useState(['About Me', 'Portfolio', 'Contact', 'Resume'])
+  const [page] = useState(['Home', 'About Me', 'Portfolio', 'Resume'])
 
   const [currentPage, setCurrentPage] = useState(page[0]); 
 
@@ -20,7 +20,9 @@ function App() {
       <main>
         <Content renderPage={currentPage} />
       </main>
-      <Footer />
+      {currentPage !== 'Home' &&
+        <Footer/>
+      }
     </div>
   );
 }
