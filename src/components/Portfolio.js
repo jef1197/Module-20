@@ -31,7 +31,7 @@ function Portfolio() {
   ])
   
   return (
-    <section>
+    <section className='portfolio-container'>
       {projects.map((project, id) => {
         return (<Project project={project} key={id}/>)
       })}

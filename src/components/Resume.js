@@ -4,7 +4,7 @@ function Resume() {
   
   return  (
     <section>
-      <p>Download my Resume <a>Here</a> </p>
+      <p>Download my Resume <a href='#'>Here</a> </p>
       <div>
         <h4>Front End </h4>
         <ul>
