@@ -5,7 +5,6 @@ function Nav(props) {
   
   return (
     <nav>
-      Hello
       <ul>
         {props.page.map((page, id) => {
           return (

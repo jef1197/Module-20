@@ -10,7 +10,66 @@ body {
   background-color: whitesmoke;
 }
 
-h1 {
-  color: red;
+/* header Styles */
+
+header{
+  display: flex;
+  padding: 15px 30px;
+  background-color: aliceblue;
+}
+
+header h1 {
+  width: 100%;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+/* Styles for mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Styles for Tablet */
+@media only screen and (min-device-width: 480px ) and (max-device-width: 768px ) {
+  
+  header h1 {
+    font-size: 35px;
+  }
+
+  ul {
+    width: 100%;
+    font-size: 15px;
+  }
+
 }
 

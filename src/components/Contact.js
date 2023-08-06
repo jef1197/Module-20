@@ -10,7 +10,7 @@ function Contact() {
           Email: <a>jef.ogu@gmail.com</a>
         </li>
         <li>
-          Github: <a>gitbhub</a>
+          Github: <a>github</a>
         </li>
       </ul>
     </section>

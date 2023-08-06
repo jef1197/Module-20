@@ -5,7 +5,7 @@ function Header(props) {
   
   return (
     <header>
-      <h1>Header</h1>
+      <h1>Jef Ogues</h1>
       {props.children}
     </header>
     );
