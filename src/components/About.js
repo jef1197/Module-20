@@ -1,11 +1,13 @@
 import React from 'react';
+import profile from '../assets/profile/me1.JPG'
 
 function About() {
   
   
   return (
-    <section>
-      <p>Hello, my name is Jef</p>
+    <section className='about-content'>
+      <div>Hello! Im Jef Ogues and I'm currently 25 years old and an inpiring Full Stack Developer</div>
+      <div><img src={profile} alt='selfie of me'/></div>
     </section>
     );
   }
