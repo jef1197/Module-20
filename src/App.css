@@ -201,6 +201,7 @@ footer div {
 
 footer p {
   margin: 10px;
+  display: inline;
 }
 
 /* Styles for mobile */
