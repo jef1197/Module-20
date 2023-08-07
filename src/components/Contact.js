@@ -11,7 +11,7 @@ function Contact() {
         <label htmlFor='email'>Email: </label>
         <input type="email" name="email" required/>
         <label htmlFor='message'>Message: </label>
-        <textarea required></textarea>
+        <textarea rows='5' required></textarea>
         <button type="submit" value="Submit">Send</button>
       </form>
     </section>

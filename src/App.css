@@ -51,12 +51,41 @@ li a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  /* padding: 50px; */
   /* height: 50vh; */
 }
 
 .content-container h1 {
-  margin-bottom: 30px; 
+  margin: 30px; 
+}
+
+/* Home Page Styles */
+
+.hero {
+  background-image: url(./assets/hero/toronto.jpg);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 1.25;
+  color: black;
+  margin: 0;
+}
+
+.hero div {
+  background-color: rgba(204, 204, 204, 0.664);
+  padding: 10px 25px;
+  border-radius: 10px;
+  width: 70%;
 }
 
 /* About Me Styles */
@@ -93,10 +122,25 @@ li a {
 }
 
 .portfolio-card {
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  border: 10px;
+}
+
+.portfolio-img {
+  height: 225px;
+  overflow: hidden;
+}
+
+.portfolio-img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-text {
+  padding: 20px;
 }
 
 .portfolio-text h3 {
@@ -109,7 +153,39 @@ li a {
   display: block;
 }
 
-/* Resume */
+/* Contact */
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 5px;
+  resize: none;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+}
 
 /* Footer */
 
