@@ -9,7 +9,7 @@ function Nav(props) {
         {props.page.map((page, id) => {
           return (
             <li key={id}>
-              <a href={"#"} onClick={() => props.setCurrentPage(page)}>{page}</a>
+              <p className="point" onClick={() => props.setCurrentPage(page)}>{page}</p>
             </li>
           )
         })}

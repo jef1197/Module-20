@@ -6,10 +6,10 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href={"#"}>GitHub</a> |
-        <a href={"#"}>LinkIn</a> |
-        <a href={"#"}>jef.ogu@gmail.com</a> |
-        <a href={"#"}>Resume</a>
+        <p className='point' href={"#"}>GitHub</p> |
+        <p className='point' href={"#"}>LinkIn</p> |
+        <p className='point' href={"#"}>jef.ogu@gmail.com</p> |
+        <p className='point' href={"#"}>Resume</p>
       </div>
       <p>Copy Right 2023 Jef Ogues</p>
     </footer>
