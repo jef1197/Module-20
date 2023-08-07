@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
 
-  const [page] = useState(['Home', 'About Me', 'Portfolio',])
+  const [page] = useState(['Home', 'About Me', 'Portfolio', 'Contact'])
 
   const [currentPage, setCurrentPage] = useState(page[0]); 
 

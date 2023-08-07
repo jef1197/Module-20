@@ -5,7 +5,6 @@ function Footer() {
   
   return (
     <footer>
-      <h2>Contact</h2>
       <div>
         <a href='#'>GitHub</a> |
         <a href='#'>LinkIn</a> |

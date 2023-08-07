@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
+import Contact from './Contact';
 
 function Content(props) {
   
@@ -15,6 +16,8 @@ function Content(props) {
       return <Home />
     } else if (props.renderPage === 'Resume') {
       return <Resume />
+    }else if (props.renderPage === 'Contact') {
+      return <Contact />
     }
   }
   
