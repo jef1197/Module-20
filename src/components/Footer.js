@@ -6,11 +6,12 @@ function Footer() {
   return (
     <footer>
       <h2>Contact</h2>
-      <ul>
-        <li>
-          hi
-        </li>
-      </ul>
+      <div>
+        <a>GitHub</a> |
+        <a>LinkIn</a> |
+        <a>jef.ogu@gmail.com</a>
+      </div>
+      <p>Copy Right 2023 Jef Ogues</p>
     </footer>
     );
   }
