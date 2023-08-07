@@ -7,9 +7,10 @@ function Footer() {
     <footer>
       <h2>Contact</h2>
       <div>
-        <a>GitHub</a> |
-        <a>LinkIn</a> |
-        <a>jef.ogu@gmail.com</a>
+        <a href='#'>GitHub</a> |
+        <a href='#'>LinkIn</a> |
+        <a href='#'>jef.ogu@gmail.com</a> |
+        <a href='#'>Resume</a>
       </div>
       <p>Copy Right 2023 Jef Ogues</p>
     </footer>
