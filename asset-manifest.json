@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c04605f5.css",
+    "main.js": "/static/js/main.175a7045.js",
+    "static/media/shop.png": "/static/media/shop.3eb103b8b26b9e3db73f.png",
+    "static/media/toronto.jpg": "/static/media/toronto.c658ff1c223fb0d4b9f3.jpg",
+    "static/media/tasty.png": "/static/media/tasty.c94f46a4e3f77909a2b7.png",
+    "static/media/nextCity.png": "/static/media/nextCity.159ac1a54ce75b4805c8.png",
+    "static/media/weather.png": "/static/media/weather.337bef5dbadec68d2e2b.png",
+    "static/media/memory.png": "/static/media/memory.ebf571687c28cc33db8e.png",
+    "static/media/rps.png": "/static/media/rps.b624567514052ab36da3.png",
+    "static/media/me1.JPG": "/static/media/me1.7cb381c5e8117a94b756.JPG",
+    "index.html": "/index.html",
+    "main.c04605f5.css.map": "/static/css/main.c04605f5.css.map",
+    "main.175a7045.js.map": "/static/js/main.175a7045.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c04605f5.css",
+    "static/js/main.175a7045.js"
+  ]
+}
