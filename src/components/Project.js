@@ -8,8 +8,8 @@ function Project({ project }) {
       <img src={pic} alt={`website homepage ` + name}/>
       <div className='portfolio-text'>
         <h3>{name}</h3>
-        <a href={link}>Link to Site</a>
-        <a href={repo}>Link to Repo</a>
+        <a target='_blank' rel='noreferrer' href={link}>Link to Site</a>
+        <a target='_blank' rel='noreferrer' href={repo}>Link to Repo</a>
       </div>
     </section>
     );
