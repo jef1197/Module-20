@@ -127,10 +127,12 @@ li {
   margin-bottom: 20px;
   background-color: aliceblue;
   border: 10px;
+  max-width: 1150px;
 }
 
 .portfolio-img {
   height: 225px;
+
   overflow: hidden;
 }
 
