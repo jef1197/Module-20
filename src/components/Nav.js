@@ -9,7 +9,7 @@ function Nav(props) {
         {props.page.map((page, id) => {
           return (
             <li key={id}>
-              <a href='#' onClick={() => props.setCurrentPage(page)}>{page}</a>
+              <a href={1} onClick={() => props.setCurrentPage(page)}>{page}</a>
             </li>
           )
         })}
