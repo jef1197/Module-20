@@ -5,6 +5,7 @@ import memoryImg from '../assets/website/memory.png'
 import shopImg from '../assets/website/shop.png'
 import cityImg from '../assets/website/nextCity.png'
 import tastyImg from '../assets/website/tasty.png'
+import royalImg from '../assets/website/royal.png'
 
 function Project({ project }) {
   const { name, link, repo, pic} = project
@@ -23,6 +24,8 @@ function Project({ project }) {
         return cityImg;
       case 'tasty':
         return tastyImg;
+      case 'royal':
+        return royalImg;
       default:
         break;
     }

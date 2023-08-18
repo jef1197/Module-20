@@ -39,6 +39,12 @@ function Portfolio() {
       link: 'https://tastybyts-1e5618d2a801.herokuapp.com',
       repo: 'https://github.com/kemcclen/TastyBytes',
       pic: 'tasty'
+    },
+    {
+      name: 'Royal Recipes',
+      link: 'https://github.com/jaychan0125/Royal-Recipes#deployment',
+      repo: 'https://github.com/jaychan0125/Royal-Recipes#deployment',
+      pic: 'royal'
     }
   ])
   
